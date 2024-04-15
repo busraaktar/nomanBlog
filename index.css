@@ -1,0 +1,70 @@
+:root{
+    --padding:1rem;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    background-color: rgb(190, 202, 119);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+nav ul{
+    padding: var(--padding);
+    gap: 1rem;
+}
+header{
+    background-image: url(image/FB_IMG_1666542811887.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: saturate(0);
+}
+header:hover{
+    filter: saturate(1);
+}
+.skill{
+    background-color: aqua;
+    padding: var(--padding);
+}
+.card{
+    width: 25%;
+    background-color: chartreuse;
+    padding:var(--padding);
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.bd-team{
+    background-color: darkseagreen;
+    padding: var(--padding);
+
+}
+.members{
+    background-color: darkkhaki;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    gap: 1rem;
+    padding: var(--padding);
+}
+.member-boby{
+    background-color: darksalmon;
+    width: auto;
+    padding: var(--padding);
+}
+
